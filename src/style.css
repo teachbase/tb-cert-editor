@@ -1,0 +1,24 @@
+#panel {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+}
+#main {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 300px;
+  right: 0;
+  overflow: auto;
+}
+.DropZone {
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+}
+.DropZone > * {
+  margin: 0 auto;
+}

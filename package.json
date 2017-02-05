@@ -1,0 +1,21 @@
+{
+  "name": "tb-cert-editor",
+  "privte": true,
+  "scripts": {
+    "start": "./node_modules/.bin/brunch watch --server"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "babel-brunch": "^6.0.6",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "brunch": "^2.10.5",
+    "postcss-brunch": "^2.0.5"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-dropzone": "^3.9.2",
+    "react-rnd": "^4.2.0"
+  }
+}
