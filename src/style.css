@@ -4,6 +4,7 @@
   bottom: 0;
   left: 0;
   width: 300px;
+  border-right: 1px solid #000;
 }
 #main {
   position: fixed;
@@ -12,13 +13,26 @@
   left: 300px;
   right: 0;
   overflow: auto;
+  user-select: none;
+  .img {
+    pointer-events: none;
+    align-items: center;
+    display: flex;
+    min-width: 100%;
+    min-height: 100%;
+    img {
+      margin: 0 auto;
+    }
+  }
+  .react-draggable {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .block {
+    border: 1px dashed #000;
+  }
 }
-.DropZone {
-  min-width: 100%;
-  min-height: 100%;
-  display: flex;
-  align-items: center;
-}
-.DropZone > * {
-  margin: 0 auto;
+label {
+  display: block;
 }

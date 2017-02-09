@@ -15,6 +15,7 @@ exports.config = {
     },
     postcss: {
       processors: [
+        require('postcss-nested')
       ]
     },
     autoReload: {
